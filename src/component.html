@@ -1,0 +1,54 @@
+Skip to content
+Features
+Business
+Explore
+Marketplace
+Pricing
+This repository
+Search
+Sign in or Sign up
+10 121 207 buckyroberts/React-Boilerplate
+ Code  Issues 1  Pull requests 1  Projects 0  Insights
+React-Boilerplate/src/demos/00_template/component.html
+81aad84  on Jun 24, 2016
+@buckyroberts buckyroberts Initial commit
+
+26 lines (22 sloc)  698 Bytes
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>React - Component</title>
+    <script src="../../js/react.min.js"></script>
+    <script src="../../js/react-dom.min.js"></script>
+    <script src="../../js/browser.min.js"></script>
+</head>
+<body>
+
+    <div id="container"></div>
+
+    <script type="text/babel">
+        var BuckysComponent = React.createClass({
+            render: function() {
+                return (<h2>This is a simple component</h2>);
+            }
+        });
+        ReactDOM.render(<BuckysComponent />, document.getElementById('container'));
+    </script>
+
+</body>
+</html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
